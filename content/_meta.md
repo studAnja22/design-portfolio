@@ -1,5 +1,5 @@
 ---
-Logo: image/carlton.gif
+Logo: img/carlton.gif
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

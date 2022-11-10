@@ -26,6 +26,8 @@ body {
 }
 
 .main {
+    margin: 10px auto;
+    width: 80%;
     flex: 1 0 auto;
 }
 
@@ -71,11 +73,14 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    color: white;
+    background-color: #222;
+    height: 100px;
+    padding: 10px;
 }
 
 .footer a {
-    color: #222;
+    color: whitesmoke;
 }
 
 .footer .social {

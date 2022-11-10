@@ -11,3 +11,5 @@ Hej, Jag heter Anna. Jag är utbildad till röntgensjuksköterska. Jag har Ehler
 The source for this page is in `content/index.md`.
 
 This is a sample home page written in markdown with some frontmatter defined.
+
+<img src="%base_url%/image/carlton.gif" alt="Bild på carlton">

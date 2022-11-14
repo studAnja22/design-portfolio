@@ -1,5 +1,5 @@
 ---
-Logo: img/leaf_256x256.png
+Logo: image/cat_logo.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

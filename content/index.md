@@ -12,4 +12,8 @@ The source for this page is in `content/index.md`.
 
 This is a sample home page written in markdown with some frontmatter defined.
 
-<img src="%base_url%/image/carlton.gif" alt="Bild på carlton">
+![Bild på Carlton](%base_url%/image/carlton.gif)
+
+<img src="%base_url%/image/august.png" alt="Bild på carlton">
+
+<div style="box-sizing: content-box; border: 8px solid black; padding: 12px; margin: 16px; height: 300px; width: 800px;"></div>

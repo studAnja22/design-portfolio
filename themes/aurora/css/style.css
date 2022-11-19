@@ -22,7 +22,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 .main {
@@ -40,7 +40,7 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(218, 218, 218);
+    background-color: #222;
 }
 
 /* Title */
@@ -63,11 +63,13 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .title p {
     font-style: italic;
+    color:hotpink;
 }
 
 /* Footer */
@@ -96,7 +98,8 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: rgb(29, 29, 29);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p, td, th, li, dd {
@@ -156,13 +159,19 @@ blockquote {
 }
 
 .nav li:first-child {
-    background-color: coral;
+    background-color: rgb(206, 206, 206);
 }
-
+.nav li{
+    background-color: whitesmoke;
+}
 .nav li:last-child {
-    background-color: cornflowerblue;
+    background-color: whitesmoke;
 }
 
 .nav li:first-child:hover {
-    background-color: greenyellow;
+    background-color: rgb(106, 179, 88);
+}
+
+.nav li:last-child:hover {
+    background-color: rgb(106, 179, 88);
 }

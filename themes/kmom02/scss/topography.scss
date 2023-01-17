@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+html {
+    font-size: 100px;
+}
+
+body {
+    line-height: $base-line-height;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.main {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+    margin: 0 auto;
+}
+
+.title * {
+    color: rgb(245, 245, 245);
+    font-family: 'Roboto Slab', serif;
+    margin-left: auto;
+}
+
+.title p {
+    font-style: italic;
+    color: rgb(255, 105, 180);
+}
+
+.header {
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8em 5%;
+}
+
+.footer a {
+    margin-top: 2em;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+
+}
+
+.footer .social {
+    font-size: 5rem;
+}
+
+.nav li:first-child {
+    background-color: rgb(206, 206, 206);
+}
+
+.nav li {
+    background-color: rgb(245, 245, 245);
+}
+
+.nav li:last-child {
+    background-color: rgb(245, 245, 245);
+}
+
+.nav li:hover {
+    background-color: rgb(106, 179, 88);
+}
+
+.nav li:last-child:hover {
+    background-color: rgb(154, 205, 50);
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}

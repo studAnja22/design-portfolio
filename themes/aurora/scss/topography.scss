@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+html {
+    font-size: 100px;
+}
+
+body {
+    line-height: $base-line-height;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.main {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+    margin: 0 auto;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}

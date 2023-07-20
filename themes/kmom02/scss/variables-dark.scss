@@ -1,0 +1,14 @@
+$font-color: rgb(192, 192, 192);
+$font-color-alt: rgb(0, 0, 0);
+$font-alternative-color: rgb(192, 192, 192);
+$accent-color: #191b36;
+$accent-color-2: #193632ab;
+$background-color: #152028;
+$background-color-dark: #1e2940;
+$background-alternative-color: #e0fbfc;
+
+$base-line-height: 1.4;
+$base-font-size: 1.1em;
+$magic-number: $base-line-height * $base-font-size;
+
+$image-filter: brightness(0.8) contrast(1.2);

@@ -315,7 +315,7 @@ html {
 
 body {
   line-height: 1.4;
-  color: #000;
+  color: rgb(192, 192, 192);
 }
 
 p {
@@ -337,19 +337,19 @@ h1 {
 }
 
 .title * {
-  color: #000;
+  color: rgb(192, 192, 192);
   font-family: "Roboto Slab", serif;
   margin-left: auto;
 }
 
 .title p {
   font-style: italic;
-  color: #000;
+  color: rgb(192, 192, 192);
 }
 
 .header {
   max-height: fit-content;
-  background-color: #738dff;
+  background-color: #1e2940;
 }
 
 .site-header {
@@ -391,18 +391,18 @@ h1 {
   margin-bottom: 30px;
   padding: 0;
   overflow: hidden;
-  background-color: #68a2e8;
+  background-color: #191b36;
   display: flex;
   justify-content: flex-end;
 }
 
 .nav li:hover {
-  background-color: #7fdbff;
+  background-color: #152028;
 }
 
 .nav a {
   display: block;
-  color: #000;
+  color: rgb(192, 192, 192);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -472,7 +472,7 @@ pre code {
 }
 
 .course-box {
-  border: 2px solid #000;
+  border: 2px solid rgb(0, 0, 0);
   position: relative;
   text-align: center;
   overflow: hidden;
@@ -489,7 +489,7 @@ pre code {
   left: 0;
   width: 100%;
   margin: 0;
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 
 .course-box:hover {
@@ -632,9 +632,9 @@ pre code {
   }
 }
 body {
-  background-color: #7fdbff;
+  background-color: #152028;
 }
 
 * {
-  color: #000;
+  color: rgb(192, 192, 192);
 }

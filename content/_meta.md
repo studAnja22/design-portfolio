@@ -11,4 +11,10 @@ Social:
     - title: Youtube
       url: https://www.youtube.com
       icon: youtube
+    - title: Toggle Dark mode
+      url: ?action=theme
+      icon: star
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: trash
 ---

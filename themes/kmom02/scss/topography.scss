@@ -7,6 +7,7 @@ html {
 
 body {
     line-height: $base-line-height;
+    color: $font-color;
 }
 
 p {
@@ -29,18 +30,36 @@ h1 {
 }
 
 .title * {
-    color: rgb(245, 245, 245);
+    color: $font-color;
     font-family: 'Roboto Slab', serif;
     margin-left: auto;
 }
 
 .title p {
     font-style: italic;
-    color: rgb(255, 105, 180);
+    color: $font-color;
 }
 
 .header {
-    margin: 20px;
+    max-height: fit-content;
+    background-color: $background-color-dark;
+}
+
+.site-header {
+    display: flex;
+    padding-left: 20px;
+    justify-items: stretch;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title {
+    margin-left: 50px;
+}
+
+.logo img {
+    max-width: 150px;
 }
 
 .footer {
@@ -52,33 +71,48 @@ h1 {
 
 .footer a {
     margin-top: 2em;
-    color: rgb(245, 245, 245);
     text-decoration: none;
-
 }
 
 .footer .social {
     font-size: 5rem;
 }
 
-.nav li:first-child {
-    background-color: rgb(206, 206, 206);
-}
-
-.nav li {
-    background-color: rgb(245, 245, 245);
-}
-
-.nav li:last-child {
-    background-color: rgb(245, 245, 245);
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color: $accent-color;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav li:hover {
-    background-color: rgb(106, 179, 88);
+    background-color: $background-color;
 }
 
-.nav li:last-child:hover {
-    background-color: rgb(154, 205, 50);
+.nav a {
+    display: block;
+    color: $font-color;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.nav ul li {
+    padding: 0 1em;
 }
 
 @media (min-width: 10em) {

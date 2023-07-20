@@ -6,33 +6,36 @@
 }
 
 .course-box {
-    border: 2px solid #ccc;
+    border: 2px solid $font-color-alt;
     position: relative;
     text-align: center;
     overflow: hidden;
 
     img {
         max-width: 100%;
+        height: auto;
     }
 
     h2 {
         text-align: left;
         position: absolute;
         padding: 1em 2em;
-        background-color: rgba(255, 166, 0, 0.425);
+        background-color: $accent-color-2;
         top: 0;
         left: 0;
         width: 100%;
         margin: 0;
+        color: $font-color-alt;
     }
 }
 
 .course-box:hover {
-    box-shadow: 10px 10px 5px #cccccc3b;
+    box-shadow: 10px 10px 5px $background-color-dark;
+    border: 2px solid $font-alternative-color;
 }
 
 .techno {
-    background-image: linear-gradient(to right, rgba(119, 197, 112, 0.11), rgb(119, 197, 112));
+    background-color: $background-color-dark;
     grid-column: 1 / 4;
     grid-row: 1;
 }
@@ -73,7 +76,7 @@
     grid-row: 5 / 5;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 800px) {
     .courses-page {
         display: grid;
         grid-template-columns: 30% 30% auto;

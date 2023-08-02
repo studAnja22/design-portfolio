@@ -1,0 +1,180 @@
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iframeyou {
+    .iframe {
+        width: 700px;
+        height: 300px;
+    }
+}
+
+.gallery-page {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 300px 300px 300px 320px;
+    gap: 1em 1em;
+}
+
+.gallery-box {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+
+    img {
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.gallery {
+    background-color: $background-color-dark;
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+.first {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.second {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.third {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.forth {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.five {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.six {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.seven {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.eight {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.nine {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.ten {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+
+@media (max-width: 1010px) {
+    .gallery-page {
+        display: grid;
+        grid-template-rows: 200px auto auto auto auto;
+        gap: 1em 1em;
+    }
+    
+}
+
+@media (max-width: 720px) {
+    .gallery-page {
+        display: grid;
+        grid-template-rows: 200px;
+        gap: 1em 1em;
+    }
+
+    .gallery {
+        background-color: $background-color-dark;
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+    
+    .first {
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    
+    .second {
+        grid-column: 1/3;
+        grid-row: 3;
+    }
+    
+    .third {
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+
+    .forth {
+        grid-column: 1/3;
+        grid-row: 5;
+    }
+
+    .five {
+        grid-column: 1/3;
+        grid-row: 6;
+    }
+
+    .six {
+        grid-column: 1/3;
+        grid-row: 7;
+    }
+
+    .seven {
+        grid-column: 1/3;
+        grid-row: 8;
+    }
+
+    .eight {
+        grid-column: 1/3;
+        grid-row: 9;
+    }
+
+    .nine {
+        grid-column: 1/3;
+        grid-row: 10;
+    }
+
+    .ten {
+        grid-column: 1/3;
+        grid-row: 11;
+    }
+}

@@ -1,0 +1,25 @@
+.design-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 1em 1em;
+}
+
+.design-item {
+    text-align: center;
+    overflow: hidden;
+}
+
+@media (max-width: 720px) {
+    .design-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 1em 1em;
+    }
+    
+    .design-item {
+        text-align: center;
+        overflow: hidden;
+    }
+}

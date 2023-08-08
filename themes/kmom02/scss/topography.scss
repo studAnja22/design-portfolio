@@ -25,8 +25,9 @@ h1 {
     max-width: 67rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    
+    min-height: 500px;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .title * {
@@ -67,6 +68,9 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     padding: 1.8em 5%;
+    background-color: $accent-color;
+    margin-top: 2em;
+    border-top: solid $font-color;
 }
 
 .footer a {
@@ -81,12 +85,13 @@ h1 {
 .nav ul {
     list-style-type: none;
     margin: 0;
-    margin-bottom: 30px;
     padding: 0;
     overflow: hidden;
     background-color: $accent-color;
     display: flex;
     justify-content: flex-end;
+    border-top: solid $font-color;
+    border-bottom: solid $font-color;
 }
 
 .nav li:hover {

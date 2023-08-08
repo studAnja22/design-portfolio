@@ -1,4 +1,10 @@
-Titel på rapporten
+---
+Title: Load Analysis
+Description: Here are our analysis on loadtime
+Template: 
+---
+
+Laddningstid och användbarhet
 =======================
 
 I den här rapporten granskar vi tre hemsidor och mäter hur snabbt de laddas och om det finns möjlighet att förbättra hemsidans laddningstid och användbarhet.  
@@ -29,7 +35,7 @@ Bönor och Blad hade flest antal resurser. 186,3 och 128,3 av dessa var bilder. 
 **Insamlad data**  
   
 <div class="iframeyou">
-    <iframe width="700" height="300" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbI6JLJclrWjcc6-WepYcjFfJ5g93dXi2FombXGv4pm1atxQ8KS5D-LuxmX1Mnf1GAVr_YMF-xoEW3/pubhtml?widget=true&amp;headers=false"></iframe>  
+    <iframe title="google kalkyl" width="700" height="300" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbI6JLJclrWjcc6-WepYcjFfJ5g93dXi2FombXGv4pm1atxQ8KS5D-LuxmX1Mnf1GAVr_YMF-xoEW3/pubhtml?widget=true&amp;headers=false"></iframe>  
 </div>
   
 Klicka på bilden nedan för att se all insamlad data.

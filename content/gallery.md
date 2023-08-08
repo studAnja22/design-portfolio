@@ -100,6 +100,6 @@ Template: gallery
 
 <div class="gallery-box ten">
     <div class="embed-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kDTgEXZUeCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe title="youtube video. Virtual drive through forest covered with snow." width="560" height="315" src="https://www.youtube.com/embed/kDTgEXZUeCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>

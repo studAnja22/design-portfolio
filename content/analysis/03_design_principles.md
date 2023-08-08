@@ -27,7 +27,7 @@ Resultat
   
 <div class="design-container">
     <div class="design-item">
-    <a href="%base_url%/image/murakami1.png" target="_blank">
+    <a href="%base_url%/image/murakami1.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/murakami1.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/murakami1.png?q=10">
@@ -36,7 +36,7 @@ Resultat
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/murakami10.png" target="_blank">
+    <a href="%base_url%/image/murakami10.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/murakami10.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/murakami10.png?q=10">
@@ -45,7 +45,7 @@ Resultat
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/murakami8.png" target="_blank">
+    <a href="%base_url%/image/murakami8.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/murakami8.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/murakami8.png?q=10">
@@ -54,7 +54,7 @@ Resultat
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/murakami5.png" target="_blank">
+    <a href="%base_url%/image/murakami5.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/murakami5.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/murakami5.png?q=10">
@@ -78,7 +78,7 @@ Den sidan har även en interaktiv bild på författarens skrivbord där man kan 
 Utöver svart och vitt som utgör designprincipen kontrast, har vi ett återkommande triadiskt(?) färgtema med en blågrön mediumaquamarin, röd tomat och två mörktgråa toner.  
 Designprinciperna för undersidorna är lika varandra. Framsidan använder sig framför allt av inramning av länkar, typografi och rörelse.  
   
-<a href="%base_url%/image/murakamidesign.png" target="_blank">
+<a href="%base_url%/image/murakamidesign.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/murakamidesign.png?w=25%&q=10">
         <source media="(min-width:500px)" srcset="%base_url%/image/murakamidesign.png?q=10">
@@ -90,7 +90,7 @@ Designprinciperna för undersidorna är lika varandra. Framsidan använder sig f
   
 <div class="design-container">
     <div class="design-item">
-    <a href="%base_url%/image/genki1.png" target="_blank">
+    <a href="%base_url%/image/genki1.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/genki1.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/genki1.png?q=10">
@@ -99,7 +99,7 @@ Designprinciperna för undersidorna är lika varandra. Framsidan använder sig f
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/genki2.png" target="_blank">
+    <a href="%base_url%/image/genki2.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/genki2.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/genki2.png?q=10">
@@ -108,7 +108,7 @@ Designprinciperna för undersidorna är lika varandra. Framsidan använder sig f
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/genki3.png" target="_blank">
+    <a href="%base_url%/image/genki3.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/genki3.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/genki3.png?q=10">
@@ -117,7 +117,7 @@ Designprinciperna för undersidorna är lika varandra. Framsidan använder sig f
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/genki4.png" target="_blank">
+    <a href="%base_url%/image/genki4.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/genki4.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/genki4.png?q=10">
@@ -133,7 +133,7 @@ Känslan är att fokuset ska ligga hos personen, Kawamura, och hans arbete inom 
 Den designprincip som kommer till tankarna först är kontrast. Svart på vitt. Hemsidan har en atrikelliknande struktur, som passar in på design principen balans och grid. Navbar får ett understräck när man hovrar över den, böckerna får en liten animation när man hovrar över dem. Några knappar är inramade.  
 Undersidorna Books och Films är väldigt lika varandra i sin grid struktur. Framsidan, profil och kontakt är sammanhängande 'one-page' struktur.
   
-<a href="%base_url%/image/kawamuradesign.png" target="_blank">
+<a href="%base_url%/image/kawamuradesign.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/kawamuradesign.png?w=25%&q=10">
         <source media="(min-width:500px)" srcset="%base_url%/image/kawamuradesign.png?q=10">
@@ -144,7 +144,7 @@ Undersidorna Books och Films är väldigt lika varandra i sin grid struktur. Fra
 **https://www.agathachristie.com/**
 <div class="design-container">
     <div class="design-item">
-    <a href="%base_url%/image/agatha1.png" target="_blank">
+    <a href="%base_url%/image/agatha1.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/agatha1.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/agatha1.png?q=10">
@@ -153,7 +153,7 @@ Undersidorna Books och Films är väldigt lika varandra i sin grid struktur. Fra
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/agatha2.png" target="_blank">
+    <a href="%base_url%/image/agatha2.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/agatha2.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/agatha2.png?q=10">
@@ -162,7 +162,7 @@ Undersidorna Books och Films är väldigt lika varandra i sin grid struktur. Fra
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/agatha3.png" target="_blank">
+    <a href="%base_url%/image/agatha3.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/agatha3.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/agatha3.png?q=10">
@@ -171,7 +171,7 @@ Undersidorna Books och Films är väldigt lika varandra i sin grid struktur. Fra
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/agatha4.png" target="_blank">
+    <a href="%base_url%/image/agatha4.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/agatha4.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/agatha4.png?q=10">
@@ -187,7 +187,7 @@ Christie är mest känd för sina detektiv romaner och noveller. Färgvalet kän
 Designprinciperna linjer, kontrast, framing och typografi står ut. Linjer delar in hemsidan i olika block, färgvalet är framförallt monokromt svart, olika nyanser av grått och vitt, böcker, filmer och nyheter ramas in.  
 De många undersidorna, såväl som framsidan anses använda samma designprinciper och struktur.
   
-<a href="%base_url%/image/christiedesign.png" target="_blank">
+<a href="%base_url%/image/christiedesign.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/christiedesign.png?w=25%&q=10&area=0,8,0,0">
         <source media="(min-width:500px)" srcset="%base_url%/image/christiedesign.png?q=10">
@@ -206,7 +206,7 @@ Hemsidorna använde sig av en kombination av flera olika designprinciper.
   
 <div class="design-container">
     <div class="design-item">
-    <a href="%base_url%/image/anja1.png" target="_blank">
+    <a href="%base_url%/image/anja1.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/anja1.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/anja1.png?q=10">
@@ -215,7 +215,7 @@ Hemsidorna använde sig av en kombination av flera olika designprinciper.
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/anja2.png" target="_blank">
+    <a href="%base_url%/image/anja2.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/anja2.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/anja2.png?q=10">
@@ -224,7 +224,7 @@ Hemsidorna använde sig av en kombination av flera olika designprinciper.
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/anja3.png" target="_blank">
+    <a href="%base_url%/image/anja3.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/anja3.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/anja3.png?q=10">
@@ -233,7 +233,7 @@ Hemsidorna använde sig av en kombination av flera olika designprinciper.
     </a>
     </div>
     <div class="design-item">
-    <a href="%base_url%/image/anja4.png" target="_blank">
+    <a href="%base_url%/image/anja4.png" target="_blank" aria-label="screenshot">
         <picture>
             <source media="(min-width:721px)" srcset="%base_url%/image/anja4.png?w=25%&q=10">
             <source media="(min-width:500px)" srcset="%base_url%/image/anja4.png?q=10">
@@ -254,14 +254,15 @@ Line - jag väljer att lägga till linjer i navbar och footer. Det blir lite car
 Färg - Vi ger navbar och footer samma färg, så det blir mer sammanhängande.  
 Balance - Jag ändrar om layouten på denna analys sida så skärmdumparna ligger i en snygg grid.
   
-<a href="%base_url%/image/anjadesign.png" target="_blank">
+<a href="%base_url%/image/anjadesign.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/anjadesign.png?w=25%&q=10">
         <source media="(min-width:500px)" srcset="%base_url%/image/anjadesign.png?q=10">
         <img src="%base_url%/assets/img/anjadesign.png" alt="screenshot of christie design principles">
     </picture>
 </a>
-
+  
+Fixat så alla sidor har 100 poäng i tillgänglighet.  
 
 Referenser
 -----------------------

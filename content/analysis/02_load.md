@@ -39,7 +39,7 @@ Bönor och Blad hade flest antal resurser. 186,3 och 128,3 av dessa var bilder. 
 </div>
   
 Klicka på bilden nedan för att se all insamlad data.
-<a href="%base_url%/image/datanetwork.png" target="_blank">
+<a href="%base_url%/image/datanetwork.png" target="_blank" aria-label="google kalkyl screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/datanetwork.png?w=50%&q=25&area=0,8,50,0">
         <source media="(min-width:500px)" srcset="%base_url%/image/datanetwork.png?q=25">
@@ -62,7 +62,7 @@ Andra anmärkningar var att bildelement saknade alt attribut, undvika ett stort 
 </picture>
   
 PageSpeed: Desktop  
-<a href="%base_url%/image/speedjava.png" target="_blank">
+<a href="%base_url%/image/speedjava.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/speedjava.png?area=0,20,84,20">
         <source media="(min-width:500px)" srcset="%base_url%/image/speedjava.png?area=0,25,84,25">
@@ -71,7 +71,7 @@ PageSpeed: Desktop
 </a>
   
 PageSpeed: mobile  
-<a href="%base_url%/image/speedjavamobil.png" target="_blank">
+<a href="%base_url%/image/speedjavamobil.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/speedjavamobil.png?area=0,20,84,20">
         <source media="(min-width:500px)" srcset="%base_url%/image/speedjavamobil.png?area=0,25,84,25">
@@ -94,7 +94,7 @@ Andra anmärkningar var att ett stort DOM-träd återfanns, enorm nätverksbelas
 </picture>  
   
 PageSpeed: Desktop  
-<a href="%base_url%/image/speedteokaffedator.png" target="_blank">
+<a href="%base_url%/image/speedteokaffedator.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/speedteokaffedator.png?area=0,20,84,20">
         <source media="(min-width:500px)" srcset="%base_url%/image/speedteokaffedator.png?area=0,25,84,25">
@@ -103,7 +103,7 @@ PageSpeed: Desktop
 </a>
   
 PageSpeed: mobile  
-<a href="%base_url%/image/speedteokaffemobil.png" target="_blank">
+<a href="%base_url%/image/speedteokaffemobil.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/speedteokaffemobil.png?area=0,20,84,20">
         <source media="(min-width:500px)" srcset="%base_url%/image/speedteokaffemobil.png?area=0,25,84,25">
@@ -126,7 +126,7 @@ På mobila enheter så var 25% av tryckmålen inte i en lämlig storlek.
 </picture>  
   
 PageSpeed: Desktop  
-<a href="%base_url%/image/speedbonorobladdator.png" target="_blank">
+<a href="%base_url%/image/speedbonorobladdator.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/speedbonorobladdator.png?area=0,20,84,20">
         <source media="(min-width:500px)" srcset="%base_url%/image/speedbonorobladdator.png?area=0,25,84,25">
@@ -135,7 +135,7 @@ PageSpeed: Desktop
 </a>
   
 PageSpeed: mobile  
-<a href="%base_url%/image/speedbonorobladmobil.png" target="_blank">
+<a href="%base_url%/image/speedbonorobladmobil.png" target="_blank" aria-label="screenshot">
     <picture>
         <source media="(min-width:721px)" srcset="%base_url%/image/speedbonorobladmobil.png?area=0,20,84,20">
         <source media="(min-width:500px)" srcset="%base_url%/image/speedbonorobladmobil.png?area=0,25,84,25">
